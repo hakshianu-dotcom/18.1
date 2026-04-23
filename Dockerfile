@@ -1,4 +1,4 @@
-FROM eclipse-temurin:23-jdk
+FROM eclipse-temurin:22-jdk
 WORKDIR /app
 COPY . /app
 RUN javac Grade.java
